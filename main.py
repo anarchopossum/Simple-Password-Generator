@@ -31,4 +31,15 @@ def passphrase_gen():
             password += char_spacer
     print(password)
 
+# --------------------------------------------------------
+print('\n==================================================================================================')
+print('.dP"Y8 88 8b    d8 88""Yb 88     888888    88""Yb    db    .dP"Y8 .dP"Y8     dP""b8 888888 88b 88 ')
+print('`Ybo." 88 88b  d88 88__dP 88     88__      88__dP   dPYb   `Ybo." `Ybo."    dP   `" 88__   88Yb88 ')
+print('o.`Y8b 88 88YbdP88 88"""  88  .o 88""      88"""   dP__Yb  o.`Y8b o.`Y8b    Yb  "88 88""   88 Y88 ')
+print('8bodP" 88 88 YY 88 88     88ood8 888888    88     dP""""Yb 8bodP" 8bodP"     YboodP 888888 88  Y8 ')
+print('==================================================================================================\n')
+print('Please Make a selection for what type of password you would like to generate:\n')
+print('1. PassPhrase - This will let generate a password with multiple english words with special and Numerical characters too')
+print('2. Char Scramble - This will use random characters such as letters, numbers and special characters\n')
+print('please make a selection!')
 passphrase_gen()
